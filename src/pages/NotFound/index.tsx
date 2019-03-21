@@ -23,6 +23,7 @@ class NotFound extends Component <{}, NotFoundState> {
             { [styles.imageSpinning]: imageSpinning }
           )}
           src={pageNotFounf}
+          alt='Page not found'
           onClick={() => this.spinImage()}
         />
         <Link className={styles.homeButton} to='/'>
