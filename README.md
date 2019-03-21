@@ -1,4 +1,4 @@
-# Counter-Saga
+# Saga Counter
 
 An example of using redux-saga
 
