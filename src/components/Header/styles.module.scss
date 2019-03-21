@@ -1,0 +1,19 @@
+@import 'resources/variables.scss';
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: $DEFAULT_BG;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 0 1px 0 0 $SHADOW_COLOR;
+
+  .logo {
+    height: 20px;
+    margin-right: 5px;
+  }
+}

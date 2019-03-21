@@ -1,0 +1,14 @@
+@import 'resources/variables.scss';
+
+.app {
+  display: flex;
+
+  .page {
+    background-color: $DEFAULT_BG;
+    margin: 70px auto 20px;
+    border-radius: 6px;
+    box-shadow: $BASIC_SHADOW;
+    padding: 40px;
+    overflow: hidden;
+  }
+}

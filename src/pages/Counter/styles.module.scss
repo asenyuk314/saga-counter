@@ -1,0 +1,37 @@
+@import 'resources/variables.scss';
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+
+  .number {
+    font-size: 24px;
+
+    &Green {
+      color: $GREEN_TEXT;
+    }
+
+    &Red {
+      color: $RED_TEXT;
+    }
+  }
+
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    &Wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .button {
+        margin-top: 30px;
+      }
+    }
+  }
+}

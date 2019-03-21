@@ -1,0 +1,23 @@
+@import 'resources/variables.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $DEFAULT_TEXT;
+  background-color: $PAGE_BG;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  background-color: $GREY;
+  color: $WHITE_TEXT;
+  border-radius: 6px;
+  border: none;
+
+  &:hover {
+    background-color: $DARK_GREY;
+    cursor: pointer;
+  }
+}
