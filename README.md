@@ -4,7 +4,7 @@ An example of using redux-saga
 
 ## Installation
 
-Install dependenses
+Install dependencies
 
 ```
 yarn
