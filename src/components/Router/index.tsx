@@ -4,7 +4,7 @@ import { BrowserRouter as Royter, Route, Switch } from 'react-router-dom'
 import Counter from 'pages/Counter'
 import NotFound from 'pages/NotFound'
 
-class App extends Component {
+class Router extends Component {
   render () {
     return (
       <Royter>
@@ -17,4 +17,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default Router
