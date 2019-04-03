@@ -20,4 +20,8 @@ button {
     background-color: $DARK_GREY;
     cursor: pointer;
   }
+
+  &:active {
+    background-color: $DARKEST_GREY;
+  }
 }
